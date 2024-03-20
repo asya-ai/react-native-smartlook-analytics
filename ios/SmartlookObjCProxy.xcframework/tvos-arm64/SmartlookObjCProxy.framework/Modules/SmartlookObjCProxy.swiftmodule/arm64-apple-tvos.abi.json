@@ -1,0 +1,5384 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordingMaskObjc",
+        "printedName": "RecordingMaskObjc",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "elements",
+            "printedName": "elements",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartlookObjCProxy.MaskElementObjc]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaskElementObjc",
+                    "printedName": "SmartlookObjCProxy.MaskElementObjc",
+                    "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask(py)elements",
+            "mangledName": "$s18SmartlookObjCProxy17RecordingMaskObjcC8elementsSayAA0e7ElementF0CGvp",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartlookObjCProxy.MaskElementObjc]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MaskElementObjc",
+                        "printedName": "SmartlookObjCProxy.MaskElementObjc",
+                        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask(im)elements",
+                "mangledName": "$s18SmartlookObjCProxy17RecordingMaskObjcC8elementsSayAA0e7ElementF0CGvg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartlookObjCProxy.MaskElementObjc]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MaskElementObjc",
+                        "printedName": "SmartlookObjCProxy.MaskElementObjc",
+                        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask(im)setElements:",
+                "mangledName": "$s18SmartlookObjCProxy17RecordingMaskObjcC8elementsSayAA0e7ElementF0CGvs",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy17RecordingMaskObjcC8elementsSayAA0e7ElementF0CGvM",
+                "mangledName": "$s18SmartlookObjCProxy17RecordingMaskObjcC8elementsSayAA0e7ElementF0CGvM",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(elements:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordingMaskObjc",
+                "printedName": "SmartlookObjCProxy.RecordingMaskObjc",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartlookObjCProxy.MaskElementObjc]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaskElementObjc",
+                    "printedName": "SmartlookObjCProxy.MaskElementObjc",
+                    "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask(im)initWithElements:",
+            "mangledName": "$s18SmartlookObjCProxy17RecordingMaskObjcC8elementsACSayAA0e7ElementF0CG_tcfc",
+            "moduleName": "SmartlookObjCProxy",
+            "objc_name": "initWithElements:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordingMaskObjc",
+                "printedName": "SmartlookObjCProxy.RecordingMaskObjc",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask(im)init",
+            "mangledName": "$s18SmartlookObjCProxy17RecordingMaskObjcCACycfc",
+            "moduleName": "SmartlookObjCProxy",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask",
+        "mangledName": "$s18SmartlookObjCProxy17RecordingMaskObjcC",
+        "moduleName": "SmartlookObjCProxy",
+        "objc_name": "SLRecordingMask",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaskType",
+        "printedName": "MaskType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "covering",
+            "printedName": "covering",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.MaskType.Type) -> SmartlookObjCProxy.MaskType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaskType",
+                    "printedName": "SmartlookObjCProxy.MaskType",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.MaskType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MaskType",
+                        "printedName": "SmartlookObjCProxy.MaskType",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType@SLMaskTypeCovering",
+            "mangledName": "$s18SmartlookObjCProxy8MaskTypeO8coveringyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "erasing",
+            "printedName": "erasing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.MaskType.Type) -> SmartlookObjCProxy.MaskType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaskType",
+                    "printedName": "SmartlookObjCProxy.MaskType",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.MaskType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MaskType",
+                        "printedName": "SmartlookObjCProxy.MaskType",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType@SLMaskTypeErasing",
+            "mangledName": "$s18SmartlookObjCProxy8MaskTypeO7erasingyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartlookObjCProxy.MaskType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaskType",
+                    "printedName": "SmartlookObjCProxy.MaskType",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SmartlookObjCProxy8MaskTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18SmartlookObjCProxy8MaskTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "SmartlookObjCProxy",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18SmartlookObjCProxy8MaskTypeO8rawValueSivp",
+            "mangledName": "$s18SmartlookObjCProxy8MaskTypeO8rawValueSivp",
+            "moduleName": "SmartlookObjCProxy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy8MaskTypeO8rawValueSivg",
+                "mangledName": "$s18SmartlookObjCProxy8MaskTypeO8rawValueSivg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType",
+        "mangledName": "$s18SmartlookObjCProxy8MaskTypeO",
+        "moduleName": "SmartlookObjCProxy",
+        "objc_name": "SLMaskType",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaskElementObjc",
+        "printedName": "MaskElementObjc",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rect",
+            "printedName": "rect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement(py)rect",
+            "mangledName": "$s18SmartlookObjCProxy15MaskElementObjcC4rectSo6CGRectVvp",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement(im)rect",
+                "mangledName": "$s18SmartlookObjCProxy15MaskElementObjcC4rectSo6CGRectVvg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaskType",
+                "printedName": "SmartlookObjCProxy.MaskType",
+                "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement(py)type",
+            "mangledName": "$s18SmartlookObjCProxy15MaskElementObjcC4typeAA0D4TypeOvp",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaskType",
+                    "printedName": "SmartlookObjCProxy.MaskType",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement(im)type",
+                "mangledName": "$s18SmartlookObjCProxy15MaskElementObjcC4typeAA0D4TypeOvg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rect:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaskElementObjc",
+                "printedName": "SmartlookObjCProxy.MaskElementObjc",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaskType",
+                "printedName": "SmartlookObjCProxy.MaskType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@SmartlookObjCProxy@E@SLMaskType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement(im)initWithRect:type:",
+            "mangledName": "$s18SmartlookObjCProxy15MaskElementObjcC4rect4typeACSo6CGRectV_AA0D4TypeOtcfc",
+            "moduleName": "SmartlookObjCProxy",
+            "objc_name": "initWithRect:type:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaskElementObjc",
+                "printedName": "SmartlookObjCProxy.MaskElementObjc",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement(im)init",
+            "mangledName": "$s18SmartlookObjCProxy15MaskElementObjcCACycfc",
+            "moduleName": "SmartlookObjCProxy",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLMaskElement",
+        "mangledName": "$s18SmartlookObjCProxy15MaskElementObjcC",
+        "moduleName": "SmartlookObjCProxy",
+        "objc_name": "SLMaskElement",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RenderingModeObjC",
+        "printedName": "RenderingModeObjC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "undefined",
+            "printedName": "undefined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.RenderingModeObjC.Type) -> SmartlookObjCProxy.RenderingModeObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RenderingModeObjC",
+                        "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode@SLRenderingModeUndefined",
+            "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO9undefinedyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "native",
+            "printedName": "native",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.RenderingModeObjC.Type) -> SmartlookObjCProxy.RenderingModeObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RenderingModeObjC",
+                        "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode@SLRenderingModeNative",
+            "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO6nativeyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "wireframe",
+            "printedName": "wireframe",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.RenderingModeObjC.Type) -> SmartlookObjCProxy.RenderingModeObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RenderingModeObjC",
+                        "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode@SLRenderingModeWireframe",
+            "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO9wireframeyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "noRendering",
+            "printedName": "noRendering",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.RenderingModeObjC.Type) -> SmartlookObjCProxy.RenderingModeObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RenderingModeObjC",
+                        "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode@SLRenderingModeNoRendering",
+            "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO02noD0yA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartlookObjCProxy.RenderingModeObjC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SmartlookObjCProxy013RenderingModeB1CO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO8rawValueACSgSi_tcfc",
+            "moduleName": "SmartlookObjCProxy",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18SmartlookObjCProxy013RenderingModeB1CO8rawValueSivp",
+            "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO8rawValueSivp",
+            "moduleName": "SmartlookObjCProxy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy013RenderingModeB1CO8rawValueSivg",
+                "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO8rawValueSivg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode",
+        "mangledName": "$s18SmartlookObjCProxy013RenderingModeB1CO",
+        "moduleName": "SmartlookObjCProxy",
+        "objc_name": "SLRenderingMode",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StatusObjC",
+        "printedName": "StatusObjC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "recording",
+            "printedName": "recording",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusRecording",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO9recordingyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "notStarted",
+            "printedName": "notStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusNotStarted",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO10notStartedyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "stopped",
+            "printedName": "stopped",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusStopped",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO7stoppedyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "projectLimitReached",
+            "printedName": "projectLimitReached",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusProjectLimitReached",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO19projectLimitReachedyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "internalError",
+            "printedName": "internalError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusInternalError",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO13internalErroryA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "notRunningInSwiftUIContext",
+            "printedName": "notRunningInSwiftUIContext",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusNotRunningInSwiftUIContext",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO26notRunningInSwiftUIContextyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "unsupportedPlatform",
+            "printedName": "unsupportedPlatform",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusUnsupportedPlatform",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO19unsupportedPlatformyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "diskCacheCapacityOverreached",
+            "printedName": "diskCacheCapacityOverreached",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC.Type) -> SmartlookObjCProxy.StatusObjC",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartlookObjCProxy.StatusObjC.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusObjC",
+                        "printedName": "SmartlookObjCProxy.StatusObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SmartlookObjCProxy@E@SLStatus@SLStatusDiskCacheCapacityOverreached",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO28diskCacheCapacityOverreachedyA2CmF",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartlookObjCProxy.StatusObjC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SmartlookObjCProxy06StatusB1CO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO8rawValueACSgSi_tcfc",
+            "moduleName": "SmartlookObjCProxy",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18SmartlookObjCProxy06StatusB1CO8rawValueSivp",
+            "mangledName": "$s18SmartlookObjCProxy06StatusB1CO8rawValueSivp",
+            "moduleName": "SmartlookObjCProxy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy06StatusB1CO8rawValueSivg",
+                "mangledName": "$s18SmartlookObjCProxy06StatusB1CO8rawValueSivg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SmartlookObjCProxy@E@SLStatus",
+        "mangledName": "$s18SmartlookObjCProxy06StatusB1CO",
+        "moduleName": "SmartlookObjCProxy",
+        "objc_name": "SLStatus",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartlookObjc",
+        "printedName": "SmartlookObjc",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)start",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC5startyyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)stop",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC4stopyyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)reset",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC5resetyyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmartlookObjc",
+                "printedName": "SmartlookObjCProxy.SmartlookObjc",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SmartlookObjc"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SmartlookObjc(im)init",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcCACycfc",
+            "moduleName": "SmartlookObjCProxy",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "projectKey",
+            "printedName": "projectKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)projectKey",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10projectKeySSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)projectKey",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10projectKeySSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setProjectKey:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10projectKeySSSgvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC10projectKeySSSgvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10projectKeySSSgvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredFrameRate",
+            "printedName": "preferredFrameRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)preferredFrameRate",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18preferredFrameRateSivpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)preferredFrameRate",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18preferredFrameRateSivgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setPreferredFrameRate:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18preferredFrameRateSivsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC18preferredFrameRateSivMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18preferredFrameRateSivMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredRenderingMode",
+            "printedName": "preferredRenderingMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RenderingModeObjC",
+                "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)preferredRenderingMode",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredRenderingModeAA0fgB1COvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)preferredRenderingMode",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredRenderingModeAA0fgB1COvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setPreferredRenderingMode:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredRenderingModeAA0fgB1COvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC22preferredRenderingModeAA0fgB1COvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredRenderingModeAA0fgB1COvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredUseAdaptiveFrameRate",
+            "printedName": "preferredUseAdaptiveFrameRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)preferredUseAdaptiveFrameRate",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC29preferredUseAdaptiveFrameRateSbvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)preferredUseAdaptiveFrameRate",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC29preferredUseAdaptiveFrameRateSbvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setPreferredUseAdaptiveFrameRate:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC29preferredUseAdaptiveFrameRateSbvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC29preferredUseAdaptiveFrameRateSbvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC29preferredUseAdaptiveFrameRateSbvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredEventTracking",
+            "printedName": "preferredEventTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartlookObjCProxy.EventTrackingObjC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventTrackingObjC",
+                    "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)preferredEventTracking",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredEventTrackingAA0fgB1CCSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartlookObjCProxy.EventTrackingObjC?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventTrackingObjC",
+                        "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)preferredEventTracking",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredEventTrackingAA0fgB1CCSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartlookObjCProxy.EventTrackingObjC?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventTrackingObjC",
+                        "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setPreferredEventTracking:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredEventTrackingAA0fgB1CCSgvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC22preferredEventTrackingAA0fgB1CCSgvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC22preferredEventTrackingAA0fgB1CCSgvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privatePreferences",
+            "printedName": "privatePreferences",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)privatePreferences",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18privatePreferencesypSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)privatePreferences",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18privatePreferencesypSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setPrivatePreferences:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18privatePreferencesypSgvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC18privatePreferencesypSgvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18privatePreferencesypSgvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setEventProperty",
+            "printedName": "setEventProperty(name:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setEventPropertyWithName:value:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC16setEventProperty4name5valueySS_SSSgtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "setEventPropertyWithName:value:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEventProperty",
+            "printedName": "getEventProperty(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)getEventPropertyWithName:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC16getEventProperty4nameSSSgSS_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "getEventPropertyWithName:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeEventProperty",
+            "printedName": "removeEventProperty(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)removeEventPropertyWithName:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC19removeEventProperty4nameySS_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "removeEventPropertyWithName:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAllEventProperties",
+            "printedName": "clearAllEventProperties()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)clearAllEventProperties",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC23clearAllEventPropertiesyyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openNewSession",
+            "printedName": "openNewSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)openNewSession",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC14openNewSessionyyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionUrl",
+            "printedName": "sessionUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)sessionUrl",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10sessionUrlSSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)sessionUrl",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10sessionUrlSSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionUrlWithTimeStamp",
+            "printedName": "sessionUrlWithTimeStamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)sessionUrlWithTimeStamp",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC23sessionUrlWithTimeStampSSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)sessionUrlWithTimeStamp",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC23sessionUrlWithTimeStampSSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerNewSessionObserver",
+            "printedName": "registerNewSessionObserver(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)registerNewSessionObserverWithCallback:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC26registerNewSessionObserver8callbackyySSSgc_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "registerNewSessionObserverWithCallback:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterNewSessionObserver",
+            "printedName": "unregisterNewSessionObserver()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)unregisterNewSessionObserver",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC28unregisterNewSessionObserveryyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerRenderingModeChangeObserver",
+            "printedName": "registerRenderingModeChangeObserver(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.RenderingModeObjC) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)registerRenderingModeChangeObserverWithCallback:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC35registerRenderingModeChangeObserver8callbackyyAA0fgB1COc_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "registerRenderingModeChangeObserverWithCallback:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterRenderingModeChangeObserver",
+            "printedName": "unregisterRenderingModeChangeObserver()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)unregisterRenderingModeChangeObserver",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC37unregisterRenderingModeChangeObserveryyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerStatusChangeObserver",
+            "printedName": "registerStatusChangeObserver(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartlookObjCProxy.StatusObjC) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)registerStatusChangeObserverWithCallback:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC28registerStatusChangeObserver8callbackyyAA0fB1COc_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "registerStatusChangeObserverWithCallback:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterStatusChangeObserver",
+            "printedName": "unregisterStatusChangeObserver()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)unregisterStatusChangeObserver",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC30unregisterStatusChangeObserveryyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openNewUser",
+            "printedName": "openNewUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)openNewUser",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC11openNewUseryyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "userIdentifier",
+            "printedName": "userIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)userIdentifier",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC14userIdentifierSSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)userIdentifier",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC14userIdentifierSSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setUserIdentifier:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC14userIdentifierSSSgvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC14userIdentifierSSSgvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC14userIdentifierSSSgvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userName",
+            "printedName": "userName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)userName",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC8userNameSSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)userName",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC8userNameSSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setUserName:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC8userNameSSSgvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC8userNameSSSgvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC8userNameSSSgvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userEmail",
+            "printedName": "userEmail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)userEmail",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC9userEmailSSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)userEmail",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC9userEmailSSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setUserEmail:",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC9userEmailSSSgvsZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy0A4ObjcC9userEmailSSSgvMZ",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC9userEmailSSSgvMZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getUserProperty",
+            "printedName": "getUserProperty(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)getUserPropertyWithName:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC15getUserProperty4nameSSSgSS_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "getUserPropertyWithName:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserProperty",
+            "printedName": "setUserProperty(name:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setUserPropertyWithName:value:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC15setUserProperty4name5valueySS_SSSgtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "setUserPropertyWithName:value:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeUserProperty",
+            "printedName": "removeUserProperty(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)removeUserPropertyWithName:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18removeUserProperty4nameySS_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "removeUserPropertyWithName:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "userUrl",
+            "printedName": "userUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)userUrl",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC7userUrlSSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)userUrl",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC7userUrlSSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerNewUserObserver",
+            "printedName": "registerNewUserObserver(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)registerNewUserObserverWithCallback:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC23registerNewUserObserver8callbackyySSSgc_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "registerNewUserObserverWithCallback:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterNewUserObserver",
+            "printedName": "unregisterNewUserObserver()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)unregisterNewUserObserver",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC25unregisterNewUserObserveryyFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(bridgeInterface:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BridgeInterface",
+                "printedName": "SmartlookAnalytics.BridgeInterface",
+                "usr": "c:@M@SmartlookAnalytics@objc(pl)SLBridgeInterface"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)registerBridgeInterface:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC8register15bridgeInterfaceSb0A9Analytics06BridgeG0_p_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "registerBridgeInterface:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(bridgeInterface:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BridgeInterface",
+                "printedName": "SmartlookAnalytics.BridgeInterface",
+                "usr": "c:@M@SmartlookAnalytics@objc(pl)SLBridgeInterface"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)unregisterBridgeInterface:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10unregister15bridgeInterfaceSb0A9Analytics06BridgeG0_p_tFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "unregisterBridgeInterface:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "stateProjectKey",
+            "printedName": "stateProjectKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)stateProjectKey",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC15stateProjectKeySSSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)stateProjectKey",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC15stateProjectKeySSSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateStatus",
+            "printedName": "stateStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StatusObjC",
+                "printedName": "SmartlookObjCProxy.StatusObjC",
+                "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)stateStatus",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC11stateStatusAA0fB1COvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusObjC",
+                    "printedName": "SmartlookObjCProxy.StatusObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)stateStatus",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC11stateStatusAA0fB1COvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateUsingStateAdaptiveFrameRate",
+            "printedName": "stateUsingStateAdaptiveFrameRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)stateUsingStateAdaptiveFrameRate",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC32stateUsingStateAdaptiveFrameRateSbvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)stateUsingStateAdaptiveFrameRate",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC32stateUsingStateAdaptiveFrameRateSbvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRecording",
+            "printedName": "isRecording",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)isRecording",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC11isRecordingSbvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)isRecording",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC11isRecordingSbvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateFrameRate",
+            "printedName": "stateFrameRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)stateFrameRate",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC14stateFrameRateSivpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)stateFrameRate",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC14stateFrameRateSivgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateRenderingMode",
+            "printedName": "stateRenderingMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RenderingModeObjC",
+                "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)stateRenderingMode",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18stateRenderingModeAA0fgB1COvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderingModeObjC",
+                    "printedName": "SmartlookObjCProxy.RenderingModeObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@E@SLRenderingMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)stateRenderingMode",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18stateRenderingModeAA0fgB1COvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateEventTracking",
+            "printedName": "stateEventTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartlookObjCProxy.EventTrackingObjC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventTrackingObjC",
+                    "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cpy)stateEventTracking",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18stateEventTrackingAA0fgB1CCSgvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartlookObjCProxy.EventTrackingObjC?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventTrackingObjC",
+                        "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)stateEventTracking",
+                "mangledName": "$s18SmartlookObjCProxy0A4ObjcC18stateEventTrackingAA0fgB1CCSgvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "trackEvent",
+            "printedName": "trackEvent(name:propertiesMap:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)trackEventWithName:propertiesMap:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC10trackEvent4name13propertiesMapySS_SDyS2SGSgtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "trackEventWithName:propertiesMap:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackNavigationEnter",
+            "printedName": "trackNavigationEnter(name:propertiesMap:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)trackNavigationEnterWithName:propertiesMap:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC20trackNavigationEnter4name13propertiesMapySS_SDyS2SGSgtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "trackNavigationEnterWithName:propertiesMap:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackNavigationExit",
+            "printedName": "trackNavigationExit(name:propertiesMap:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)trackNavigationExitWithName:propertiesMap:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC19trackNavigationExit4name13propertiesMapySS_SDyS2SGSgtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "trackNavigationExitWithName:propertiesMap:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackSelector",
+            "printedName": "trackSelector(name:propertiesMap:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)trackSelectorWithName:propertiesMap:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC13trackSelector4name13propertiesMapySS_SDyS2SGSgtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "trackSelectorWithName:propertiesMap:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setViewClassSensitivity",
+            "printedName": "setViewClassSensitivity(viewClass:isSensitive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "UIKit.UIView.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setViewClassSensitivityWithViewClass:isSensitive:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC23setViewClassSensitivity04viewG011isSensitiveySo6UIViewCm_SbtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "setViewClassSensitivityWithViewClass:isSensitive:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setViewInstanceSensitivity",
+            "printedName": "setViewInstanceSensitivity(view:isSensitive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setViewInstanceSensitivityWithView:isSensitive:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC26setViewInstanceSensitivity4view11isSensitiveySo6UIViewC_SbtFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "objc_name": "setViewInstanceSensitivityWithView:isSensitive:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRecordingMask",
+            "printedName": "setRecordingMask(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartlookObjCProxy.RecordingMaskObjc?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordingMaskObjc",
+                    "printedName": "SmartlookObjCProxy.RecordingMaskObjc",
+                    "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLRecordingMask"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartlookObjCProxy@objc(cs)SmartlookObjc(cm)setRecordingMask:",
+            "mangledName": "$s18SmartlookObjCProxy0A4ObjcC16setRecordingMaskyyAA0fgD0CSgFZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SmartlookObjc",
+        "mangledName": "$s18SmartlookObjCProxy0A4ObjcC",
+        "moduleName": "SmartlookObjCProxy",
+        "objc_name": "SmartlookObjc",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventTrackingObjC",
+        "printedName": "EventTrackingObjC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trackUserInteraction",
+            "printedName": "trackUserInteraction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(py)trackUserInteraction",
+            "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC20trackUserInteractionSbvp",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(im)trackUserInteraction",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC20trackUserInteractionSbvg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(im)setTrackUserInteraction:",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC20trackUserInteractionSbvs",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy013EventTrackingB1CC20trackUserInteractionSbvM",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC20trackUserInteractionSbvM",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackNavigation",
+            "printedName": "trackNavigation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(py)trackNavigation",
+            "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackNavigationSbvp",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(im)trackNavigation",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackNavigationSbvg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(im)setTrackNavigation:",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackNavigationSbvs",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy013EventTrackingB1CC15trackNavigationSbvM",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackNavigationSbvM",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackRageClicks",
+            "printedName": "trackRageClicks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(py)trackRageClicks",
+            "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackRageClicksSbvp",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(im)trackRageClicks",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackRageClicksSbvg",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(im)setTrackRageClicks:",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackRageClicksSbvs",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SmartlookObjCProxy013EventTrackingB1CC15trackRageClicksSbvM",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC15trackRageClicksSbvM",
+                "moduleName": "SmartlookObjCProxy",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventTrackingObjC",
+                "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(cpy)default",
+            "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC7defaultACvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventTrackingObjC",
+                    "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(cm)default",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC7defaultACvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noTracking",
+            "printedName": "noTracking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventTrackingObjC",
+                "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(cpy)noTracking",
+            "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC02noE0ACvpZ",
+            "moduleName": "SmartlookObjCProxy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventTrackingObjC",
+                    "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                    "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(cm)noTracking",
+                "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC02noE0ACvgZ",
+                "moduleName": "SmartlookObjCProxy",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventTrackingObjC",
+                "printedName": "SmartlookObjCProxy.EventTrackingObjC",
+                "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking(im)init",
+            "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CCACycfc",
+            "moduleName": "SmartlookObjCProxy",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartlookObjCProxy@objc(cs)SLEventTracking",
+        "mangledName": "$s18SmartlookObjCProxy013EventTrackingB1CC",
+        "moduleName": "SmartlookObjCProxy",
+        "objc_name": "SLEventTracking",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SmartlookAnalytics",
+        "printedName": "SmartlookAnalytics",
+        "declKind": "Import",
+        "moduleName": "SmartlookObjCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "slSensitive",
+            "printedName": "slSensitive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SmartlookObjCProxy@@objc(cs)UIView(py)slSensitive",
+            "mangledName": "$sSo6UIViewC18SmartlookObjCProxyE11slSensitiveSbvp",
+            "moduleName": "SmartlookObjCProxy",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@@objc(cs)UIView(im)slSensitive",
+                "mangledName": "$sSo6UIViewC18SmartlookObjCProxyE11slSensitiveSbvg",
+                "moduleName": "SmartlookObjCProxy",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SmartlookObjCProxy@@objc(cs)UIView(im)setSlSensitive:",
+                "mangledName": "$sSo6UIViewC18SmartlookObjCProxyE11slSensitiveSbvs",
+                "moduleName": "SmartlookObjCProxy",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Masks.swift",
+      "kind": "Array",
+      "offset": 303,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Masks.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 17,
+      "value": "\"SmartlookObjCProxy.RecordingMaskObjc\""
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Masks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Masks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Masks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Masks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Masks.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 15,
+      "value": "\"SmartlookObjCProxy.MaskElementObjc\""
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Preferences.swift",
+      "kind": "IntegerLiteral",
+      "offset": 462,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Preferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 993,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 1,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+RenderingMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 428,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 428,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Status.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+EventTracking.swift",
+      "kind": "BooleanLiteral",
+      "offset": 300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+EventTracking.swift",
+      "kind": "BooleanLiteral",
+      "offset": 344,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+EventTracking.swift",
+      "kind": "BooleanLiteral",
+      "offset": 388,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/budim\/Work\/smartlook\/ios-sdk\/smartlook-ios-sdk-private\/Smartlook\/SmartlookObjCProxy\/SmartlookObjc+Sensitivity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1103,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

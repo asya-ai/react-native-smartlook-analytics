@@ -1,0 +1,4 @@
+framework module SmartlookObjCProxy {
+  header "SmartlookObjCProxy-Swift.h"
+  requires objc
+}

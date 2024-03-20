@@ -1,0 +1,205 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SmartlookObjCProxy
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreGraphics
+import Foundation
+import SmartlookAnalytics
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc(SLRecordingMask) public class RecordingMaskObjc : ObjectiveC.NSObject {
+  @objc public var elements: [SmartlookObjCProxy.MaskElementObjc]
+  @objc public init(elements: [SmartlookObjCProxy.MaskElementObjc] = [])
+  @objc deinit
+}
+@objc(SLMaskType) public enum MaskType : Swift.Int {
+  case covering = 0
+  case erasing = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(SLMaskElement) public class MaskElementObjc : ObjectiveC.NSObject {
+  @objc final public let rect: CoreFoundation.CGRect
+  @objc final public let type: SmartlookObjCProxy.MaskType
+  @objc public init(rect: CoreFoundation.CGRect, type: SmartlookObjCProxy.MaskType = .covering)
+  @objc deinit
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static var projectKey: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var preferredFrameRate: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public static var preferredRenderingMode: SmartlookObjCProxy.RenderingModeObjC {
+    @objc get
+    @objc set
+  }
+  @objc public static var preferredUseAdaptiveFrameRate: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var preferredEventTracking: SmartlookObjCProxy.EventTrackingObjC? {
+    @objc get
+    @objc set
+  }
+  @objc public static var privatePreferences: Any? {
+    @objc get
+    @objc set
+  }
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static func setEventProperty(name: Swift.String, value: Swift.String?)
+  @objc public static func getEventProperty(name: Swift.String) -> Swift.String?
+  @objc public static func removeEventProperty(name: Swift.String)
+  @objc public static func clearAllEventProperties()
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static func openNewSession()
+  @objc public static var sessionUrl: Swift.String? {
+    @objc get
+  }
+  @objc public static var sessionUrlWithTimeStamp: Swift.String? {
+    @objc get
+  }
+  @objc public static func registerNewSessionObserver(callback: @escaping (Swift.String?) -> Swift.Void)
+  @objc public static func unregisterNewSessionObserver()
+}
+@objc(SLRenderingMode) public enum RenderingModeObjC : Swift.Int {
+  case undefined = -1
+  case native = 0
+  case wireframe = 1
+  case noRendering = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static func registerRenderingModeChangeObserver(callback: @escaping (SmartlookObjCProxy.RenderingModeObjC) -> Swift.Void)
+  @objc public static func unregisterRenderingModeChangeObserver()
+}
+@objc(SLStatus) public enum StatusObjC : Swift.Int {
+  case recording = 0
+  case notStarted = 1
+  case stopped = 2
+  case projectLimitReached = 4
+  case internalError = 6
+  case notRunningInSwiftUIContext = 7
+  case unsupportedPlatform = 8
+  case diskCacheCapacityOverreached = 9
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static func registerStatusChangeObserver(callback: @escaping (SmartlookObjCProxy.StatusObjC) -> Swift.Void)
+  @objc public static func unregisterStatusChangeObserver()
+}
+@_inheritsConvenienceInitializers @objc(SmartlookObjc) public class SmartlookObjc : ObjectiveC.NSObject {
+  @objc public static func start()
+  @objc public static func stop()
+  @objc public static func reset()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(SLEventTracking) public class EventTrackingObjC : ObjectiveC.NSObject {
+  @objc public var trackUserInteraction: Swift.Bool
+  @objc public var trackNavigation: Swift.Bool
+  @objc public var trackRageClicks: Swift.Bool
+  @objc public static var `default`: SmartlookObjCProxy.EventTrackingObjC {
+    @objc get
+  }
+  @objc public static var noTracking: SmartlookObjCProxy.EventTrackingObjC {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static func openNewUser()
+  @objc public static var userIdentifier: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var userName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var userEmail: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static func getUserProperty(name: Swift.String) -> Swift.String?
+  @objc public static func setUserProperty(name: Swift.String, value: Swift.String?)
+  @objc public static func removeUserProperty(name: Swift.String)
+  @objc public static var userUrl: Swift.String? {
+    @objc get
+  }
+  @objc public static func registerNewUserObserver(callback: @escaping (Swift.String?) -> Swift.Void)
+  @objc public static func unregisterNewUserObserver()
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc(registerBridgeInterface:) public static func register(bridgeInterface: any SmartlookAnalytics.BridgeInterface) -> Swift.Bool
+  @objc(unregisterBridgeInterface:) public static func unregister(bridgeInterface: any SmartlookAnalytics.BridgeInterface) -> Swift.Bool
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static var stateProjectKey: Swift.String? {
+    @objc get
+  }
+  @objc public static var stateStatus: SmartlookObjCProxy.StatusObjC {
+    @objc get
+  }
+  @objc public static var stateUsingStateAdaptiveFrameRate: Swift.Bool {
+    @objc get
+  }
+  @objc public static var isRecording: Swift.Bool {
+    @objc get
+  }
+  @objc public static var stateFrameRate: Swift.Int {
+    @objc get
+  }
+  @objc public static var stateRenderingMode: SmartlookObjCProxy.RenderingModeObjC {
+    @objc get
+  }
+  @objc public static var stateEventTracking: SmartlookObjCProxy.EventTrackingObjC? {
+    @objc get
+  }
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static func trackEvent(name: Swift.String, propertiesMap map: [Swift.String : Swift.String]?)
+  @objc public static func trackNavigationEnter(name: Swift.String, propertiesMap map: [Swift.String : Swift.String]?)
+  @objc public static func trackNavigationExit(name: Swift.String, propertiesMap map: [Swift.String : Swift.String]?)
+  @objc public static func trackSelector(name: Swift.String, propertiesMap map: [Swift.String : Swift.String]?)
+}
+extension SmartlookObjCProxy.SmartlookObjc {
+  @objc public static func setViewClassSensitivity(viewClass: UIKit.UIView.Type, isSensitive: Swift.Bool)
+  @objc public static func setViewInstanceSensitivity(view: UIKit.UIView, isSensitive: Swift.Bool)
+  @objc public static func setRecordingMask(_ mask: SmartlookObjCProxy.RecordingMaskObjc?)
+}
+extension UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var slSensitive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+extension SmartlookObjCProxy.MaskType : Swift.Equatable {}
+extension SmartlookObjCProxy.MaskType : Swift.Hashable {}
+extension SmartlookObjCProxy.MaskType : Swift.RawRepresentable {}
+extension SmartlookObjCProxy.RenderingModeObjC : Swift.Equatable {}
+extension SmartlookObjCProxy.RenderingModeObjC : Swift.Hashable {}
+extension SmartlookObjCProxy.RenderingModeObjC : Swift.RawRepresentable {}
+extension SmartlookObjCProxy.StatusObjC : Swift.Equatable {}
+extension SmartlookObjCProxy.StatusObjC : Swift.Hashable {}
+extension SmartlookObjCProxy.StatusObjC : Swift.RawRepresentable {}
